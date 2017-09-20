@@ -2,9 +2,11 @@
 <head>
   <script>
   const supportedPaymentMethods = [
-  {
-    supportedMethods: ['https://w3c.mcskunkworks.com/pay'],
-  }
+  supportedMethods: ['basic-card"'],
+    data:{
+      supportedNetworks: 'mastercard',
+      supportedTyes: 'debit'
+    }
 ];
 
 const paymentDetails = {
